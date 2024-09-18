@@ -163,3 +163,10 @@ p {
 .font-bold {
 	font-weight: 800 !important;
 }
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0.937rem;
+	padding-right: 0.937rem;
+	max-width: 1200px;
+}
