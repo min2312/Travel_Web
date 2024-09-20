@@ -26,5 +26,5 @@ yarn-error.log*
 *.sql
 
 # Thư mục backend
-/backend/node_modules/
-backend/*.log
+/Back-End/node_modules/
+Back-End/*.log

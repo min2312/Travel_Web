@@ -1,0 +1,31 @@
+.tour_section {
+	padding: 50px 0;
+	background-color: var(--secondaryClr);
+}
+.tour_section .img-box {
+	padding: 0 12px;
+}
+.tour_section .img-box .card {
+	border: none;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.tour_section .img-box .card a {
+	padding: 0;
+}
+.tour_section .img-box .card img {
+	transition: all 0.5 ease 0s;
+	display: block;
+	filter: brightness(0.8);
+}
+.tour_section .img-box .card .card-title {
+	position: absolute;
+	top: 5%;
+	left: 3%;
+	font-size: 16px;
+	color: var(--white);
+	list-style: 18px;
+	font-weight: bold;
+	width: 100%;
+}

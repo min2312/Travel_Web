@@ -31,9 +31,11 @@ const CustomDropdown = ({ label, options, onSelect }) => {
 									!value || option.toLowerCase().startsWith(value.toLowerCase())
 							)
 							.map((option, index) => (
-								<Dropdown.Item eventKey={option} key={index}>
-									{option}
-								</Dropdown.Item>
+								<li>
+									<Dropdown.Item eventKey={option} key={index}>
+										{option}
+									</Dropdown.Item>
+								</li>
 							))}
 					</ul>
 				</Dropdown.Menu>

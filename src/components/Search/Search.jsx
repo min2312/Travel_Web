@@ -32,7 +32,7 @@ const Search = () => {
 								<DatePicker
 									selected={startDate}
 									onChange={(date) => setStartDate(date)}
-									selectedStart
+									selectsStart
 									startDate={startDate}
 									endDate={endDate}
 									dateFormat="dd/MM/yyyy"
@@ -43,7 +43,7 @@ const Search = () => {
 								<DatePicker
 									selected={endDate}
 									onChange={(date) => setEndDate(date)}
-									selectedEnd
+									selectsEnd
 									startDate={endDate}
 									endDate={startDate}
 									dateFormat="dd/MM/yyyy"
