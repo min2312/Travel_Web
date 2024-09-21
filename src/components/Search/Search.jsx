@@ -63,7 +63,7 @@ const Search = () => {
 							</div>
 							<div className="item-search bd-none">
 								<button className="primaryBtn flex-even d-flex justify-content-center">
-									<i class="bi bi-search me-2"></i>Search
+									<i className="bi bi-search me-2"></i>Search
 								</button>
 							</div>
 						</div>
