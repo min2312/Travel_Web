@@ -1,0 +1,13 @@
+.gallery {
+	background-color: var(--secondaryClr);
+	overflow: hidden;
+	padding: 50px 0;
+}
+.gallery .styles_thumbpanel__1sa4E {
+	z-index: 9999;
+}
+.gallery .styles_lightroom__1X2qE {
+	position: fixed;
+	overflow: hidden;
+	z-index: 999;
+}

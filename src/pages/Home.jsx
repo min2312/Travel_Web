@@ -4,6 +4,7 @@ import Search from "../components/Search/Search";
 import Features from "../components/Features/Features";
 import Tour from "../components/Tour_Destination/Tour";
 import PopularPlace from "../components/PopularPlace/PopularPlace";
+import Gallery from "../components/Gallery/Gallery";
 
 const Home = () => {
 	return (
@@ -13,6 +14,7 @@ const Home = () => {
 			<Features />
 			<Tour />
 			<PopularPlace />
+			<Gallery />
 		</>
 	);
 };
