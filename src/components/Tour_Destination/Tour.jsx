@@ -125,16 +125,18 @@ const Tour = () => {
 							<Slider {...settings}>
 								{destinationsData.map((destination, inx) => {
 									return (
-										<Card key={inx}>
-											<Card.Img
-												variant="top"
-												src={destination.image}
-												className="img-fluid"
-												alt={destination.name}
-											></Card.Img>
-											<Card.Title>{destination.name}</Card.Title>
-											<Card.Text>{destination.tours}</Card.Text>
-										</Card>
+										<div className="img-box" key={inx}>
+											<Card>
+												<Card.Img
+													variant="top"
+													src={destination.image}
+													className="img-fluid"
+													alt={destination.name}
+												></Card.Img>
+												<Card.Title>{destination.name}</Card.Title>
+												<span className="tours">{destination.tours}</span>
+											</Card>
+										</div>
 									);
 								})}
 							</Slider>
